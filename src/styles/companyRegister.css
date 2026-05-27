@@ -1,0 +1,39 @@
+.company-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+  padding: 40px 20px;
+}
+
+.company-card {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.company-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #1e293b;
+}
+
+.form-label {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.form-control {
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  font-weight: 600;
+}

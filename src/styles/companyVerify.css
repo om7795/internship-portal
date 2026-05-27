@@ -1,0 +1,48 @@
+.verify-page {
+  min-height: calc(100vh - 72px);
+  background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%);
+  padding: 50px 20px;
+}
+
+.verify-card {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  border-radius: 24px;
+  padding: 35px;
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.1);
+}
+
+.verify-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  text-align: center;
+  color: #0f172a;
+}
+
+.verify-subtitle {
+  text-align: center;
+  color: #64748b;
+  margin-bottom: 30px;
+}
+
+.verify-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.result-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.result-box {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 14px;
+}
